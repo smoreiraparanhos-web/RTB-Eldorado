@@ -1,0 +1,12 @@
+/* Ajustes finais de desempenho e movimento */
+html { scroll-behavior: smooth; }
+.reveal { transition-duration: 1.05s !important; transition-timing-function: cubic-bezier(.22,1,.36,1) !important; }
+.reveal-delay { transition-delay: .14s !important; }
+.gallery-item figcaption, .gallery-placeholder { display:none !important; }
+.gallery-item img { width:100%; height:100%; object-fit:cover; }
+.gallery-item { cursor:zoom-in; }
+@media(max-width:720px) { .ambient-tools, .orbit, .hero-tool { animation:none !important; } }
+@media(prefers-reduced-motion:reduce) {
+ html { scroll-behavior:auto !important; }
+ *, *::before, *::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
+}

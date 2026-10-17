@@ -1,0 +1,9 @@
+COLOQUE AS 16 FOTOS DE RESULTADOS NESTA PASTA.
+
+Use estes nomes exatamente:
+corte-01.jpg até corte-16.jpg
+
+Exemplo: corte-01.jpg, corte-02.jpg, corte-03.jpg.
+
+As fotos podem ter qualquer tamanho ou proporção. O site as organiza em uma
+galeria uniforme, sem esticar. Somente as bordas podem ser recortadas.
